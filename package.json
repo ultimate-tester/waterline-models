@@ -1,6 +1,6 @@
 {
   "name": "waterline-models",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Auto loads waterline models from a directory",
   "main": "index.js",
   "scripts": {
@@ -27,21 +27,21 @@
   },
   "homepage": "https://github.com/ksmithut/waterline-models",
   "dependencies": {
-    "bluebird": "^2.9.34",
-    "object-assign": "^3.0.0",
+    "bluebird": "^3.3.5",
+    "object-assign": "^4.0.1",
     "require-dir": "^0.3.0",
-    "waterline": "^0.10.26"
+    "waterline": "^0.12.1"
   },
   "devDependencies": {
-    "chai": "^3.2.0",
-    "chai-as-promised": "^5.1.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
     "clear-require": "^1.0.1",
-    "codeclimate-test-reporter": "^0.1.0",
-    "istanbul": "^0.3.18",
-    "jshint": "^2.8.0",
-    "jshint-stylish": "^2.0.1",
-    "mocha": "^2.2.5",
-    "mocha-lcov-reporter": "0.0.2",
-    "sails-memory": "^0.10.5"
+    "codeclimate-test-reporter": "^0.3.1",
+    "istanbul": "^0.4.3",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "mocha": "^2.4.5",
+    "mocha-lcov-reporter": "1.2.0",
+    "sails-memory": "^0.10.6"
   }
 }
