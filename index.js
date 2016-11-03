@@ -31,7 +31,8 @@ exports.init = function (config) {
     cwd: process.cwd(),
     dir: 'models',
     adapters: {},
-    connections: {}
+    connections: {},
+	defaults: {}
   }, config);
 
   var Waterline = exports.Waterline;
@@ -51,7 +52,8 @@ exports.init = function (config) {
       return Promise.fromNode(function (cb) {
         waterline.initialize({
           adapters: config.adapters,
-          connections: config.connections
+          connections: config.connections,
+		  defaults: config.defaults
         }, cb);
       });
     })
